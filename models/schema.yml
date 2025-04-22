@@ -1,0 +1,11 @@
+
+version: 2
+
+models:
+    - name: customer_orders
+      columns:
+          - name: order_id
+            description: "The primary key for this table"
+            tests:
+                - unique
+                - not_null
